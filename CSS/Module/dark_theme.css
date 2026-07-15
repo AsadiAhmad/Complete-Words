@@ -3,3 +3,11 @@ body {
   color: var(--text-primary);
 }
 
+img.header-logo {
+  color: var(--text-primary);
+}
+
+img.header-logo path {
+  fill: var(--text-primary);
+}
+

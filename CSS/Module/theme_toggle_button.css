@@ -6,13 +6,9 @@
 
 .theme-toggle {
   position: fixed;
-  top: var(--theme-toggle-top);
-  left: 50%;
-  margin-left: calc((var(--nav-width) / 2) + 12px);
   width: var(--theme-toggle-width);
   height: var(--theme-toggle-height);
-  border: 1px solid var(--toggle-border);
-  border-radius: 50%;
+  border: none;
   background: var(--toggle-bg);
   color: var(--toggle-icon);
   display: inline-flex;
@@ -47,22 +43,9 @@
   display: block;
 }
 
-@media (max-width: 650px) {
-  :root {
-    --theme-toggle-top: 34px;
-  }
-}
-
-@media (max-width: 550px) {
-  .theme-toggle {
-    margin-left: calc((var(--nav-width) / 2) + 10px);
-  }
-}
-
 @media (max-width: 450px) {
   :root {
     --theme-toggle-width: 40px;
     --theme-toggle-height: 40px;
-    --theme-toggle-top: 36px;
   }
 }
