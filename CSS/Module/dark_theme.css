@@ -3,11 +3,26 @@ body {
   color: var(--text-primary);
 }
 
-img.header-logo {
-  color: var(--text-primary);
+body[data-theme='light'] .logo {
+  filter: brightness(0);
 }
 
-img.header-logo path {
-  fill: var(--text-primary);
+body[data-theme='dark'] .logo {
+  filter: none;
 }
 
+body[data-theme='light'] .hero-logo {
+  filter: brightness(0) drop-shadow(0 14px 24px rgb(15 23 42 / 0.16));
+}
+
+body[data-theme='dark'] .hero-logo {
+  filter: drop-shadow(0 14px 24px rgb(0 0 0 / 0.26));
+}
+
+.logo-light-shadow {
+  filter: drop-shadow(0 0 0 rgb(255 255 255 / 0));
+}
+
+.logo-dark-shadow {
+  filter: drop-shadow(0 0 0 rgb(0 0 0 / 0));
+}

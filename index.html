@@ -13,9 +13,9 @@
   <link rel="stylesheet" href="/CSS/Sections/structure.css">
   <link rel="stylesheet" href="/CSS/Sections/header.css">
   <link rel="stylesheet" href="/CSS/Sections/hero.css">
-  <link rel="stylesheet" href="/CSS/Sections/practice.css">
-  <link rel="stylesheet" href="/CSS/Sections/assessment.css">
-  <link rel="stylesheet" href="/CSS/Sections/footer.css">
+  <!-- <link rel="stylesheet" href="/CSS/Sections/practice.css"> -->
+  <!-- <link rel="stylesheet" href="/CSS/Sections/assessment.css"> -->
+  <!-- <link rel="stylesheet" href="/CSS/Sections/footer.css"> -->
 </head>
 <body>
   <header>
@@ -34,7 +34,15 @@
       </button>
     </div>
   </header>
-  <div id="hero" style="display: none;">
+  <div id="hero">
+    <section class="hero-content">
+      <img class="logo hero-logo" src="/Image/Logo/logo.svg" alt="Dragon Test logo">
+      <h1 class="hero-title">Dragon Test</h1>
+      <p class="hero-subtitle">Unlimites TOEFL 2026 Pratice</p>
+      <div class="hero-divider" aria-hidden="true"></div>
+      <p class="hero-description">Master the Complete the Words section with unlimited automatically generated practice tests.</p>
+      <button type="button" class="hero-button">Start Practicing</button>
+    </section>
   </div>
   <div id="practice" style="display: none;">
   </div>
@@ -46,6 +54,8 @@
   <script src="/JS/section_controll.js"></script>
 </body>
 </html>
+
+
 
 
 

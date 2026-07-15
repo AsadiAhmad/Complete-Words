@@ -1,0 +1,21 @@
+body {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+header {
+  flex: 0 0 auto;
+}
+
+#hero,
+#practice,
+#assessment,
+footer {
+  flex: 0 0 auto;
+}
+
+#hero {
+  flex: 1 1 auto;
+}
